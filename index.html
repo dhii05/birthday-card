@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday!</title>
+
+<style>
+body{
+    background-color:#eaf6ff;
+    font-family:Arial,sans-serif;
+    text-align:center;
+    padding-top:100px;
+}
+
+.card{
+    background:white;
+    width:80%;
+    max-width:500px;
+    margin:auto;
+    padding:30px;
+    border-radius:25px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+}
+
+button{
+    background:#a8d8ff;
+    border:none;
+    padding:15px 25px;
+    border-radius:20px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+#message{
+    display:none;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>🎂 Happy Birthday! 🎂</h1>
+
+<p>Someone prepared a tiny gift for you. 🩵</p>
+
+<button onclick="showMessage()">
+🌸 Open Gift 🌸
+</button>
+
+<div id="message">
+<br>
+<p>
+Thank you for being you. 😺✨
+</p>
+
+<p>
+I hope this year brings you lots of happiness,
+successful projects, and plenty of cute things.
+🌷
+</p>
+
+<p>
+Happy Birthday! 🎂💙
+</p>
+</div>
+
+</div>
+
+<script>
+function showMessage(){
+document.getElementById("message").style.display="block";
+}
+</script>
+
+</body>
+</html>
