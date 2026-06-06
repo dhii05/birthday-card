@@ -1,69 +1,145 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Happy Birthday!</title>
+<title>Happy Birthday 🌷</title>
 
 <style>
+
 body{
-    background-color:#eaf6ff;
-    font-family:Arial,sans-serif;
-    text-align:center;
-    padding-top:100px;
+background:linear-gradient(#eaf6ff,#fff7fb);
+font-family:Arial,sans-serif;
+text-align:center;
+overflow:hidden;
 }
 
 .card{
-    background:white;
-    width:80%;
-    max-width:500px;
-    margin:auto;
-    padding:30px;
-    border-radius:25px;
-    box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+background:white;
+width:80%;
+max-width:600px;
+margin:80px auto;
+padding:40px;
+border-radius:30px;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+h1{
+color:#7aa5d8;
 }
 
 button{
-    background:#a8d8ff;
-    border:none;
-    padding:15px 25px;
-    border-radius:20px;
-    font-size:18px;
-    cursor:pointer;
+background:#b8ddff;
+border:none;
+padding:15px 25px;
+border-radius:30px;
+font-size:18px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.05);
 }
 
 #message{
-    display:none;
-    margin-top:20px;
+display:none;
+margin-top:20px;
+line-height:1.8;
 }
+
+.star{
+position:absolute;
+font-size:20px;
+animation:float 5s infinite ease-in-out;
+}
+
+.star:nth-child(1){
+left:10%;
+top:15%;
+}
+
+.star:nth-child(2){
+left:80%;
+top:20%;
+}
+
+.star:nth-child(3){
+left:20%;
+top:75%;
+}
+
+.star:nth-child(4){
+left:90%;
+top:70%;
+}
+
+@keyframes float{
+50%{
+transform:translateY(-15px);
+}
+}
+
 </style>
 </head>
 
 <body>
 
+<div class="star">⭐</div>
+<div class="star">☁️</div>
+<div class="star">✨</div>
+<div class="star">🌷</div>
+
 <div class="card">
 
 <h1>🎂 Happy Birthday! 🎂</h1>
 
-<p>Someone prepared a tiny gift for you. 🩵</p>
+<p>
+Someone prepared a tiny gift for you. 🩵
+</p>
 
 <button onclick="showMessage()">
 🌸 Open Gift 🌸
 </button>
 
 <div id="message">
-<br>
+
 <p>
-Thank you for being you. 😺✨
+Hi! 😺
 </p>
 
 <p>
-I hope this year brings you lots of happiness,
-successful projects, and plenty of cute things.
-🌷
+I prepared a tiny birthday page for you.
+Because a normal birthday message felt too ordinary. 🌷
 </p>
 
 <p>
-Happy Birthday! 🎂💙
+Thank you for all the random conversations,
+all the silly moments,
+and simply for being yourself. ✨
 </p>
+
+<p>
+I hope this year brings you:
+</p>
+
+<p>
+🎂 good food<br>
+💻 successful projects<br>
+😴 enough sleep<br>
+🐱 lots of cute things<br>
+🌷 plenty of happy moments
+</p>
+
+<p>
+It's funny how we met online.
+Yet somehow,
+meeting you became one of the better things
+that happened in my life. 🩵
+</p>
+
+<p>
+Happy Birthday! 🌸
+</p>
+
 </div>
 
 </div>
